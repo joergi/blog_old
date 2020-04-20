@@ -1,6 +1,6 @@
 ---
 title: "Getting a verified user on Github"
-date: 2020-03-37
+date: 2020-03-27
 ---
 
   
