@@ -7,7 +7,7 @@ Maybe you know this:
 you have a huge Java project, maybe the project itself is a sum of many (not even so small) Java projects.     
 For sharing the complete setting with other developers you normally use a [Vagrant box](https://www.vagrantup.com) to make it easy.    
 At work we needed 2 big projects in one Vagrant box, which included over 10 small maven projects.   
-Normally I would share it like this:
+Normally I would share it like this:    
 ```bash
 config.vm.synced_folder "my-project1", "/home/vagrant/my-project1" 
 config.vm.synced_folder "my-project2", "/home/vagrant/my-project2"
@@ -20,9 +20,9 @@ Of course, this is not acceptable at all.
 
 So i was looking for some better way for syncing it, and I came to a good solution rsync
 
-´´´bash
+```bash
 config.vm.synced_folder "my-project1", "/home/vagrant/my-project1", type: "rsync", :rsync__exclude => ['my-project1/, my-project1/mini_project2/target,my-project1/mini_project2/target,my-project1/mini_project3/target,my-project1/mini_project4/target']
-config.vm.synced_folder "my-project2", "/home/vagrant/my-project2", type: "rsync", :rsync__exclude => ['my-project2/, my-project2/mini_project2/target,my-project2/mini_project2/target,my-project2/mini_project3/target,my-project2/mini_project4/target']
+config.vm.synced_folder "my-project2", "/home/vagrant/my-project2", type: "rsync", :rsync__exclude => ['my-project2/, my-project2/mini_project2/target,my-project2/mini_project2/target,my-project2/mini_project3/target,my-project2/mini_project4/target']
 ```
 
 You do this with every folder you need in your Vagrant box and where you don't want everything synced.
