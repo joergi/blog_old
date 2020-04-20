@@ -1,3 +1,8 @@
+---
+title: "Getting a verified user on Github"
+date: 2020-03-37
+---
+
 <p>When you create a new file directly on Github and push it to your branch, you will see in the commit, that this was done by an verified user.<br /><img class="alignnone size-full wp-image-484" src="https://joergi77.files.wordpress.com/2020/03/github1-2.png" alt="github1" width="947" height="227" /></p>
 
 <p>If you push it from your command line, it normally looks like this:</p>
