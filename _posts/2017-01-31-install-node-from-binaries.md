@@ -1,6 +1,6 @@
 ---
 title: "install node from binaries"
-date: 2020-04-19
+date: 2017-01-31
 ---
 
 Source: http://www.thegeekstuff.com/2015/10/install-nodejs-npm-linux/    
