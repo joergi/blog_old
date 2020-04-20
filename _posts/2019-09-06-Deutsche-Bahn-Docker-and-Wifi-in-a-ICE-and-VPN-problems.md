@@ -1,3 +1,8 @@
+---
+title: "Deutsche Bahn,Docker and Wifi in an ICE and VPN problems
+date: 2019-09-06
+---
+
 The Deutsche Bahn is providing free wifi for some years now.
 It works for most of the people pretty well, but if you are a developer you could have some issues. I was suffering a lot with this, this is why I'm posting it, to help some of you
 
