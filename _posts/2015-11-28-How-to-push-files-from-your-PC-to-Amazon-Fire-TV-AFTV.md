@@ -1,6 +1,6 @@
 ---
 title: "How to push files from your PC to Amazon Fire TV"
-date: 2020-04-19
+date: 2015-11-28
 ---
 
 The easiest way to do it:
