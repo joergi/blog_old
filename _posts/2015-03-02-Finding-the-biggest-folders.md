@@ -7,5 +7,5 @@ If you have on a server a folder which is to big, and you want to know, which fi
 ```bash
 du -m | sort -n | tail -n 10
 ```
-for finding the 10 biggest folders.
+for finding the 10 biggest folders.    
 (repeat this step in the biggest folder again to find the “problem folders”)
