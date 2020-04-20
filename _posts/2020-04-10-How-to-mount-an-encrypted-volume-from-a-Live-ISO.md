@@ -1,3 +1,8 @@
+---
+title: "How to mount an encrypted volume from a live-iso"
+date: 2020-04-10
+---
+
 If you destroyed somehow your Linux system, which has an encrypted volume, and you want to log into this, but booting is not working, boot from a Live-ISO, and type:
 <pre>$ lsblk -f</pre>
 you will see sda1 oder sdb1 as your encrypted system
