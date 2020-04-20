@@ -3,12 +3,17 @@ title: "Using Docker as non-root"
 date: 2017-10-17
 ---
 
+[UPDATE 2020-04-21] as mentioned in this [post](https://askubuntu.com/a/477554/80388) it's not needed anymore:
+```
+Good news: the new docker (version 19.03 
+```
+
 Normally you need to run docker as root:
 ```bash
 sudo docker run hello-world
 ```
 If this is going on your nerves, you can add your normal user to the docker-usergroup.    
-But before you do this, read the warning in this [Post](https://askubuntu.com/a/477554/80388) (where i also got the code from)
+But before you do this, read the warning in this [post](https://askubuntu.com/a/477554/80388) (where i also got the code from)
 
 ```bash
 sudo groupadd docker
