@@ -1,5 +1,5 @@
 ---
-title: "npm throws error “/usr/bin/env: node: No such file or directory"
+title: "npm throws error /usr/bin/env: node: No such file or directory"
 date: 2014-05-09
 ---
 
