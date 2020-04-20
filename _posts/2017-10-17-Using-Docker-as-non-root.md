@@ -5,7 +5,7 @@ date: 2017-10-17
 
 [UPDATE 2020-04-21] as mentioned in this [post](https://askubuntu.com/a/477554/80388) it's not needed anymore:
 ```
-Good news: the new docker (version 19.03 
+Good news: the new docker (version 19.03 (currently experimental)) will be able to run rootless negating the problems that can occur using a root user. No more messing with elevated permissions, root and anything that might open up your machine when you did not want to. 
 ```
 
 Normally you need to run docker as root:
