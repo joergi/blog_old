@@ -7,6 +7,8 @@ date: 2015-09-09
 Because I was living in 2011 for 3 month in my favourite city Barcelona, I am asked so many times for Barcelona Tips...    
 So here we go:
 
+<!-- more -->
+
 **Concerts**
 * Always have a look at <a href="http://barcelonahardcore.mforos.com/457647-conciertos/" target="_blank">THIS FORUM</a>, it's in catalan, but you can get the informations out of the postings and <a href="http://translate.google.de" target="_blank">Google Translate</a> will help you too! Best online information for squat shows (but let me tell you: they start really really late... )</li>
 	<li><a href="http://salarocksound.com" target="_blank">Sala Rocksound</a>
