@@ -13,7 +13,12 @@
     <main>
       <article>
         <h2>{{ page.title }}</h2>
-        {% include published.html %}
+		<p class="publish-date">
+		  from: <time pubdate="">{{ page.date | date: "%B %-d, %Y" }}</time>
+		  {% if page.last_updated %}
+		    | Updated: <time pubdate="">{{ page.last_updated | date: "%B %-d, %Y" }}</time>
+		  {% endif %}
+		</p>
         {{ content }}
       </article>
     </main>
