@@ -1,10 +1,6 @@
-<html>
-  <head>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  </head>
-  
-  <body>
 
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+ 
 
 <a href="https://blog.joergi.io/feed.xml"><i style="color: #FFA500;" class="fas fa-rss-square"></i></a/>
 Home</a>
@@ -16,6 +12,3 @@ Home</a>
     </li>
   {% endfor %}
 </ul>
-</body>
-</html
-
