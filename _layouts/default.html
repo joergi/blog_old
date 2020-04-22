@@ -12,14 +12,17 @@
 	My digital brain <a href="https://blog.joergi.io/feed.xml"><i style="color: #FFA500;" font-size="22px" class="fas fa-rss-square"></i></a/>
 </div>
     <main>
-      <article>
+
         <h2>{{ page.title }}</h2>
-		<p class="publish-date">
-		  {% if page.last_updated %}
-		    | Updated: <time pubdate="">{{ page.last_updated | date: "%B %-d, %Y" }}</time>
-		  {% endif %}
-		</p>
-x        {{ content }} 	x
+        <article>
+	<ul>
+	  {% for post in site.posts %}
+	    <li style="padding: 10px;">
+	      <div><a href="{{ post.url }}">{{ post.title }}</a></div>
+	      <div><time pubdate="">{{ post.date | date: "%B %-d, %Y" }}</time></div>
+	    </li>
+	  {% endfor %}
+	</ul>
       </article>
     </main>
 
