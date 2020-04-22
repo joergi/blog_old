@@ -10,4 +10,10 @@ github_username:  joergi # DO NOT include the @ character, or else the build wil
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  
+
 theme: jekyll-theme-tactile
