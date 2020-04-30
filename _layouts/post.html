@@ -14,24 +14,14 @@
     <main>
       <article>
         <h1>{{ page.title }}</h1>
-        posted under: {{ category }}
+        posted under: | {% for category in site.categories %}{{ category[0] }} |{% endfor %}
 
         {{ content }}
 
+        tags: | {% for tag in site.tags %}{{ tag[0] }} |{% endfor %}
       </article>
     </main>
     </div>
-
-    {% for category in site.categories %}
-      <h3>{{ category[0] }}</h3>
-      <ul>
-        {% for post in category[1] %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
-    {% endfor %}
-
-
 
 {% include footer.html %}
   </body>
