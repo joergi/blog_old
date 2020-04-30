@@ -1,6 +1,8 @@
 ---
-title: "Using MongoRepository with more than one sorting with Spring"
-description: "If you want to get some ressults out of a MongoRepository in your Spring Boot project sorted to 2 values, you will need a Sort.Order Object"
+title: "Using MongoRepository with more than one sorting with Spring Boot"
+description: "If you want to get some results out of a MongoRepository in your Spring Boot project sorted to 2 values, you will need a Sort.Order Object"
+categories: [developer, java, database, mongo, spring boot]
+tags: [sorting]
 date: 2019-09-09
 ---
 

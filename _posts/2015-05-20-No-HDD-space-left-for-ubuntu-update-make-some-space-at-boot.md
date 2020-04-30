@@ -1,6 +1,8 @@
 ---
 title: "No HDD space left for ubuntu update, make some space at /boot"
 description: "A typical Ubuntu problem: you can't make any updates because No HDD space left for ubuntu update, make some space at /boot. Here is a way that you can install again"
+categories: [linux, ubuntu, problems, how-to]
+tags: [boot, diskspace]
 date: 2015-05-20
 ---
 

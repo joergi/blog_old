@@ -1,6 +1,8 @@
 ---
 title: "Which Linux Version is running"
 description: "How to find out what Linux distro and what version you are running"
+categories: [linux, basics]
+tags: [distro]
 date: 2015-08-24
 ---
 

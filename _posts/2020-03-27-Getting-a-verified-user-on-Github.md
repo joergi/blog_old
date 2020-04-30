@@ -1,6 +1,8 @@
 ---
 title: "Getting a verified user on Github"
 description: "This is a step by step example what you have to do, to get a verified user on Github"
+categories: [linux, developer, github]
+tags: [github, verified user, authentication, github]
 date: 2020-03-27
 ---
 
