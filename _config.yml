@@ -10,10 +10,27 @@ github_username:  joergi # DO NOT include the @ character, or else the build wil
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
+# seo stuff
+title: joergi blog - my digital brain
+tagline: tech stuff mainly Java, open source and Linux related
+description:  this blog is mostly about developer stuff but also tech stuff in general. Mostly about open-source and Linux related stuff
+url: https://blog.joergi.io
+author:
+  twitter: joergi_77
+twitter:
+  username: joergi_77
+  card: summary
+social:
+  name: joergi
+  links:
+    - https://twitter.com/joergi_77
+    - https://github.com/joergi
+lang: en_US
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  
+
 
 theme: jekyll-theme-tactile

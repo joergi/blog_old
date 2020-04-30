@@ -1,6 +1,8 @@
 ---
 title: "My Firefox Extensions"
+description: "A list of all the usefull Firefox extension to save your privacy and to tools that help you for developing websites"
 date: 2020-04-29
+
 ---
 
 * [Facebook Container](https://github.com/mozilla/contain-facebook) from [Mozilla](https://www.mozilla.org/)    
@@ -20,4 +22,3 @@ If you are a web developer and you need to measure some distances, this it the t
 
 * [ColorZilla](https://www.colorzilla.com/firefox/) by [Alex sirota](https://www.iosart.com/firefox/) *(also available for [Chromium](https://www.colorzilla.com/chrome/))*     
 A tool to pick any color which is displayed in your browser
-
