@@ -14,11 +14,9 @@
     <main>
       <article>
         <h1>{{ page.title }}</h1>
-        posted under: | {% for category in site.categories %}{{ category[0] }} |{% endfor %}
 
         {{ content }}
 
-        tags: | {% for tag in site.tags %}{{ tag[0] }} |{% endfor %}
       </article>
     </main>
     </div>
