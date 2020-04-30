@@ -1,6 +1,6 @@
 ---
 title: "Getting a verified user on Github"
-description: "This is a step by step example what you have to do, to get a verified user on Github".
+description: "This is a step by step example what you have to do, to get a verified user on Github"
 date: 2020-03-27
 ---
 
