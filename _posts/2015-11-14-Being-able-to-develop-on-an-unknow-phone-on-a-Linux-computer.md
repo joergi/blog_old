@@ -1,5 +1,6 @@
 ---
 title: "Being able to develop on an unknown phone on a Linux computer"
+description: "Everything you have to set up to deploy an Android app to your phone via ADB"
 date: 2015-11-14
 ---
 

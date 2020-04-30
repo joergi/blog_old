@@ -1,5 +1,6 @@
 ---
 title: "Berlin – where to go"
+description: "living for over 10 years in Berlin, I'm often called where are the best vegan places, where are the punk rock shows, and where to go out for drinking. This is my advice, where to go in Berlin Rock City!"
 date: 2017-04-09
 ---
 
@@ -21,7 +22,7 @@ The sell every Thursday vegan Currywurst, so go and get it!</li>
 	<li>Lily Burger (<a href="https://www.facebook.com/Lily-Burger-1436991733183510" target="_blank">Facebook</a>)
 For me they have the <span style="text-decoration:underline;"><em><strong>BEST</strong></em></span> (vegan) Burger in town. Also many the meat eaters will be happy there!</li>
 </ul>
- 
+
 
 Bars:
 <ul>
@@ -53,6 +54,6 @@ also a formerly squatted house, a nice bar and some cool concerts in the cellar!
 	<li><a href="http://www.schicksaal.org/" target="_blank">Tommy Weissbecker Haus</a>
 another (ex) squatted house... good shows, they start always really late</li>
 </ul>
- 
+
 
 ... list is not complete yet

@@ -1,5 +1,6 @@
 ---
 title: "Barcelona-tips"
+description: "What to do in Barcelona if you are into vegan food, punk rock concerts and like to go to good bars with loud music! Rock'n'Roll!! I <3 BCN "
 date: 2015-09-09
 ---
 

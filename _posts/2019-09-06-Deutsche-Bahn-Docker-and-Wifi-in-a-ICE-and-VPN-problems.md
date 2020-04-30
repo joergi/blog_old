@@ -1,5 +1,6 @@
 ---
 title: "Deutsche Bahn,Docker and Wifi in an ICE and VPN problems"
+description: "As a developer with installed Docker you could have a problem connecting to the WiFi in an ICE, the so called WiFi on ICE, because they use the same IP Range."
 date: 2019-09-06
 ---
 
@@ -22,7 +23,7 @@ RX errors 0 dropped 0 overruns 0 frame 0
 TX packets 0 bytes 0 (0.0 B)
 TX errors 0 dropped 0 overruns 0 carrier 0 collisions 0
 </pre>
- 
+
 
 you can delete this bridge by using the following commands:
 <pre>sudo ip link set br-bcc4b1218247 down

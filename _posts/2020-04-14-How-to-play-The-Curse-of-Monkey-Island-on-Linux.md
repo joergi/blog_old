@@ -1,5 +1,6 @@
 ---
 title: "How to play The Curse of Monkey Island on Linux"
+description: "This is a step by step example, how to get the third Monkey Island game - The Curse of Monkey Island - running on your Linux system - thank you Ron Gilbert for all this jewels from my childhood "
 date: 2020-04-14
 ---
 

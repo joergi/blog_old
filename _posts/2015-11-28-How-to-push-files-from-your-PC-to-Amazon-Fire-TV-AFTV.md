@@ -1,5 +1,6 @@
 ---
 title: "How to push files from your PC to Amazon Fire TV"
+description: "Simple example about how to push files from your computer to a Amazon Fire TV Box / Amazon Fire TV Stick."
 date: 2015-11-28
 ---
 

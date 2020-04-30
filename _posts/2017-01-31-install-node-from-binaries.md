@@ -1,5 +1,5 @@
 ---
-title: "install node from binaries"
+title: "install node.js from binaries"
 date: 2017-01-31
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "mySQL workbench can't connect via ssh tunnel"
+description: "how to solve ValueError: CTR mode needs counter parameter, not IV if your mySQL workbench can't connect to a database via ssh sshtunnel"
 date: 2017-02-20
 ---
 

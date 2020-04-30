@@ -1,5 +1,6 @@
 ---
 title: "Using XIOAMI gamepad with Linux"
+description: "What you have to do on Linux to get the Xiaomi gamepad running - happy gaming"
 date: 2016-01-14
 ---
 

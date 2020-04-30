@@ -1,9 +1,10 @@
 ---
-title: "How to mount an encrypted volume from a live-iso"
+title: "How to mount an encrypted volume from a live ISO"
+description: "if you desstroyed the boot section on your Linux computer and you want to access your data, you will need to encrypt the volume from a live ISO"
 date: 2020-04-10
 ---
 
-If you destroyed somehow your Linux system, which has an encrypted volume, and you want to log into this, but booting is not working, boot from a Live-ISO, and type:
+If you destroyed somehow your Linux system, which has an encrypted volume, and you want to log into this, but booting is not working, boot from a live ISO, and type:
 <pre>$ lsblk -f</pre>
 you will see sda1 oder sdb1 as your encrypted system
 <img class="alignnone size-full wp-image-499" src="https://joergi77.files.wordpress.com/2020/04/encrypted.png" alt="encrypted" width="806" height="383" />

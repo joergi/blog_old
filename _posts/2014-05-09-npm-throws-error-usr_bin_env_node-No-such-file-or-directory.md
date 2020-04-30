@@ -1,5 +1,6 @@
 ---
 title: "npm throws error /usr/bin/env: node: No such file or directory"
+description: "solving the problems for npm throws error /usr/bin/env: node: No such file or directory"
 date: 2014-05-09
 ---
 

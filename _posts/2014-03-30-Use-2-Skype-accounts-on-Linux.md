@@ -1,5 +1,6 @@
 ---
-title: "Use 2 Skype accounts on linux"
+title: "Use 2 Skype accounts on Linux"
+description: "Here is a trick to use 2 skype accounts at the same time "
 date: 2014-03-30
 ---
 

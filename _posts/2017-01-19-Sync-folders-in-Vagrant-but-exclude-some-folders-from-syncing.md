@@ -1,5 +1,6 @@
 ---
 title: "Sync folders in Vagrant but exclude some folders from syncing"
+description: "Here is an example how to exclude folder in your Vagrant box from syncing. this saves you a lot of time and nerves"
 date: 2017-01-19
 ---
 
@@ -9,7 +10,7 @@ For sharing the complete setting with other developers you normally use a [Vagra
 At work we needed 2 big projects in one Vagrant box, which included over 10 small maven projects.   
 Normally I would share it like this:    
 ```bash
-config.vm.synced_folder "my-project1", "/home/vagrant/my-project1" 
+config.vm.synced_folder "my-project1", "/home/vagrant/my-project1"
 config.vm.synced_folder "my-project2", "/home/vagrant/my-project2"
 ```
 You can imagine, the normal start-time of our server with permanently syncing all folders, including all the target folders took much too long.     
@@ -29,7 +30,7 @@ You do this with every folder you need in your Vagrant box and where you don't w
 
 At the moment it only syncs the folder from you host to your guest system on `vagrant up` and `vagrant reload`    
 Of course you want to have any changes to be synced to your developer box.     
- 
+
 So the solution is:     
 Open two terminal shells:     
 
