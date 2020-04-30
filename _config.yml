@@ -27,6 +27,10 @@ social:
     - https://github.com/joergi
 lang: en_US
 
+collections:
+  category:
+    output: true
+    
 plugins:
   - jekyll-feed
   - jekyll-sitemap
