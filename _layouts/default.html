@@ -20,7 +20,13 @@
 	  {% for post in site.posts %}
 	    <li style="padding: 10px;">
 	      <div><a href="{{ post.url }}">{{ post.title }}</a></div>
-	      <div style="color:#222222; font-size:0.8em"><time pubdate="">{{ post.date | date: "%B %-d, %Y" }}</time> | {{ post.category }}</div>
+
+	      
+	      <div style="color:#222222; font-size:0.8em"><time pubdate="">{{ post.date | date: "%B %-d, %Y" }}</time> | 
+            {% for category in post.categories %}
+    	        {{ category }}
+            {% endfor %}
+	      	  </div>
         <!--<div>{{ post.excerpt }}</div>-->
 	    </li>
 	  {% endfor %}
@@ -50,7 +56,7 @@
 	<div style="margin-top: 1em; padding: 1em; background: #f2f2f2;">
     <h3>Categories:</h3>
         {% for category in site.categories %}
-            {{ category }}
+            {{ category.name }}
         {% endfor %}
 	</div>
 	
