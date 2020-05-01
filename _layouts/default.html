@@ -11,7 +11,7 @@
   <body>
 
     {% include header.html %}
-<div style="float:left; margin-left: 10em; margin-right: 10em;  padding-top: 5em; border: 1px dotted red;">
+<div style="float:left; margin-left: 10em; margin-right: 10em;  padding-top: 5em;">
 	  <main>
 
         <h2>{{ page.title }}</h2>
@@ -50,8 +50,7 @@
 	<div style="margin-top: 1em; padding: 1em; background: #f2f2f2;">
     <h3>Categories:</h3>
         {% for category in site.categories %}
-            <a href="{{ category.url }}">{{ category.url }}</a>
-            
+            {{ category }}
         {% endfor %}
 	</div>
 	
