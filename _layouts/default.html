@@ -6,11 +6,12 @@
     <title>{{ page.title }}</title>
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
     {% seo %}
+
   </head>
   <body>
 
     {% include header.html %}
-<div style=" margin-left: 10em; margin-right: 10em;  padding-top: 5em;">
+<div style="float:left; margin-left: 10em; margin-right: 10em;  padding-top: 5em; border: 1px dotted red;">
 	  <main>
 
         <h2>{{ page.title }}</h2>
@@ -26,9 +27,23 @@
 	</ul>
     </main>
 </div>
-
+<div style="float:left; widht: 100px; height 80px;border: 1px dotted green; ">
+	<form onsubmit="duckSearch()" action="javascript:void(0)">
+	    <input id="searchField" type="text" value="" placeholder="Search...">
+	</form>
+</div>
+<div style="float: none;">
 {% include footer.html %}
-
+</div>
+<script type="text/javascript">
+    function duckSearch() {
+        var searchField = document.getElementById("searchField");
+        if (searchField && searchField.value) {
+            var query = escape("site:jonbeebe.net " + searchField.value);
+            window.location.href = "https://duckduckgo.com/?q=" + query;
+        }
+    }
+</script>
   </body>
 
 </html>
