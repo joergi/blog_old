@@ -27,17 +27,17 @@
 	</ul>
     </main>
 </div>
-<div style="float:left; widht: 100px; height 80px;border: 1px dotted green; ">
-    <div>
+<div style="float:left; ">
+    <div style="width: 100px; height 80px;" >
 	<form onsubmit="duckSearch()" action="javascript:void(0)">
 	    <input id="searchField" type="text" value="" placeholder="Search...">
 	</form>
 	</div>
 	
-	<div style="padding-top: 2em;">
+	<div style="padding: 1em;">
         <b>Recent posts</b>
-    <ul> {% for post in site.posts %}
-	    <li>
+    <ul> {% for post in site.posts limit:5 %}
+	    <li stlye="list-style: none; border: 1px solid #222;">
 	      <a href="{{ post.url }}">{{ post.title }}</a>
 	    </li>
 	  {% endfor %}
