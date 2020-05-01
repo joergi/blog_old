@@ -35,7 +35,7 @@
     This search is powered by <a href="https://duckduckgo.com/" target="_blank">DuckDuckGo</a>
 	</div>
 	
-	<div style="margin-top: 1em; padding: 2 em; background: #f2f2f2;">
+	<div style="margin-top: 1em; padding: 2em; background: #f2f2f2;">
 	
         <h3>Recent posts:</h3>
     <ul> {% for post in site.posts limit:5 %}
@@ -50,7 +50,8 @@
 	<div style="margin-top: 1em; padding: 1em; background: #f2f2f2;">
     <h3>Categories:</h3>
         {% for category in site.categories %}
-            <a href="{{ category.url }}">{{ category }}</a> {{ category.total_posts }}| 
+            <a href="{{ category.url }}">{{ category.url }}</a>
+            
         {% endfor %}
 	</div>
 	
