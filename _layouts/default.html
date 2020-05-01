@@ -28,9 +28,21 @@
     </main>
 </div>
 <div style="float:left; widht: 100px; height 80px;border: 1px dotted green; ">
+    <div>
 	<form onsubmit="duckSearch()" action="javascript:void(0)">
 	    <input id="searchField" type="text" value="" placeholder="Search...">
 	</form>
+	</div>
+	
+	<div style="padding-top: 2em;">
+        <b>Recent posts</b>
+    <ul> {% for post in site.posts %}
+	    <li>
+	      <a href="{{ post.url }}">{{ post.title }}</a>
+	    </li>
+	  {% endfor %}
+	  </ul>
+	</div>
 </div>
 <div style="float: none;">
 {% include footer.html %}
