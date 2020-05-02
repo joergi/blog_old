@@ -2,9 +2,24 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-	<link href="/css/jekyll-theme-tactile.css" rel="stylesheet">
-    <title>{{ page.title }}</title>
+	  <link href="/css/jekyll-theme-tactile.css" rel="stylesheet">
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
     {% seo %}
 
   </head>
@@ -21,12 +36,12 @@
 	    <li style="padding: 10px;">
 	      <div><a href="{{ post.url }}">{{ post.title }}</a></div>
 
-	      
-	      <div style="color:#222222; font-size:0.8em"><time pubdate="">{{ post.date | date: "%B %-d, %Y" }}</time>  
+
+	      <div style="color:#222222; font-size:0.8em"><time pubdate="">{{ post.date | date: "%B %-d, %Y" }}</time>
             {% if post.categories.size > 0 %}
-            | Posted in: 
+            | Posted in:
                 {% for category in post.categories %}
-        	        {{ category }} - 
+        	        {{ category }} -
                 {% endfor %}
             {% endif %}
 	      	  </div>
@@ -43,9 +58,9 @@
 	</form>
     This search is powered by <a href="https://duckduckgo.com/" target="_blank">DuckDuckGo</a>
 	</div>
-	
+
 	<div style="margin-top: 1em; padding: 2em; background: #f2f2f2;">
-	
+
         <h3>Recent posts:</h3>
     <ul> {% for post in site.posts limit:5 %}
 	    <li style="list-style: none; padding:1em 0; border-top: 1px dotted #222;">
@@ -55,16 +70,16 @@
 
 	  </ul>
 	</div>
-	
+
 	<div style="margin-top: 1em; padding: 1em; background: #f2f2f2;">
     <h3>Categories:</h3>
-    
+
         {% for category in site.categories %}
             {{ category.name }}
         {% endfor %}
 	</div>
-	
-	
+
+
 </div>
 <div style="float: none;">
 {% include footer.html %}
