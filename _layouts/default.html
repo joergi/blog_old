@@ -56,7 +56,7 @@
 	<form onsubmit="duckSearch()" action="javascript:void(0)">
 	    <input id="searchField" type="text" value="" placeholder="Search..." style="width:90%">
 	</form>
-    This search is powered by <a href="https://duckduckgo.com/" target="_blank">DuckDuckGo</a>
+    This search is powered by <a href="https://google.com/" target="_blank">Google</a>
 	</div>
 
 	<div style="margin-top: 1em; padding: 2em; background: #f2f2f2;">
@@ -89,7 +89,7 @@
         var searchField = document.getElementById("searchField");
         if (searchField && searchField.value) {
             var query = escape("site:blog.joergi.io " + searchField.value);
-            window.location.href = "https://duckduckgo.com/?q=" + query;
+            window.location.href = "https://google.com/?q=" + query;
         }
     }
 </script>
