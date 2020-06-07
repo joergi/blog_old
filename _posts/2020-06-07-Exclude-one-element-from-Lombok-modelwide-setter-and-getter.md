@@ -3,7 +3,7 @@ title: "Exclude one element from Lombok model-wide setter and getter"
 description: "Using Lombok @Setter and @Getter for all elements, but skip it for one element"
 categories: [java, lombok]
 tags: [lombok, java]
-date: 2020-03-27
+date: 2020-06-07
 ---
 
 Lets say you have a model like this:
