@@ -9,7 +9,6 @@ date: 2020-06-07
 Lets say you have a model like this:
 
 ```java
- 
 @Getter
 @Setter
 public class User {
@@ -28,10 +27,9 @@ public class User {
 ```setId(String id)``` makes no sense.    
 Normally the id is set by the DB, so it makes no sense to set it.
 
-So you can use ```  @Setter(AccessLevel.NONE)```   (or   ```@Getter(AccessLevel.NONE```)) to exclude it from the Lombok setters (or getters)
+So you can use ```  @Setter(AccessLevel.NONE)```   (or   ```@Getter(AccessLevel.NONE)```) to exclude it from the Lombok setters (or getters)
 
 ```java
-
 @Getter
 @Setter
 public class User {
