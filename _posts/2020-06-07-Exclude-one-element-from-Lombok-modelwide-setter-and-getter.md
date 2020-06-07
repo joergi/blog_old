@@ -6,7 +6,7 @@ tags: [lombok, java]
 date: 2020-06-07
 ---
 
-Lets say you have a model like this:
+Lets say you have a User model with [Lombok](https://projectlombok.org/) modelwide [@Getter](https://projectlombok.org/api/lombok/Getter.html) and [@Setter](https://projectlombok.org/api/lombok/Setter.html):
 
 ```java
 @Getter
@@ -45,3 +45,5 @@ public class User {
     private String password;
 }
 ```
+
+(I found this answer on [Stackoverflow](https://stackoverflow.com/a/7994134/863403) by user [Michael Piefel](https://stackoverflow.com/users/2621917/michael-piefel) for this problem, thanks!
