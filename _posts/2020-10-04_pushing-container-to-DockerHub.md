@@ -3,7 +3,7 @@ title: "Pushing container to Docker hub"
 description: "a short intro how to push containers to docker hub"
 categories: [docker, registry, howto]
 tags: [docker, registry, howto]
-date: 2020-04-29
+date: 2020-10-04
 
 ---
 
