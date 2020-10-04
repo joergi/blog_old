@@ -10,6 +10,8 @@ date: 2020-04-29
 ```bash
 docker login
 docker commit bbcf6acf816d simple-test-project
-docker tag local-image:tagname new-repo:tagname
+docker tag simple-test-project:latest joergi/docker_test_project:v1
 docker push joergi/docker_test_project:v1
-pushing
+```
+
+this should be enought to push it to docker
