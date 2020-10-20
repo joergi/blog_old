@@ -2,7 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-	  <link href="/css/jekyll-theme-tactile.css" rel="stylesheet">
+      <link href="/css/jekyll-theme-tactile.css" rel="stylesheet">
+      <link href="/css/basic-overwrite.css" rel="stylesheet">
+      <link href="/css/footer-overwrite.css" rel="stylesheet">
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -26,7 +28,7 @@
   <body>
 
     {% include header.html %}
-<div style="float:left; margin-left: 10em; margin-right: 10em;  padding-top: 5em;">
+    <div id="left-column">
 	  <main>
 
         <h2>{{ page.title }}</h2>
@@ -37,7 +39,7 @@
 	      <div><a href="{{ post.url }}">{{ post.title }}</a></div>
 
 
-	      <div style="color:#222222; font-size:0.8em"><time pubdate="">{{ post.date | date: "%B %-d, %Y" }}</time>
+	      <div class="article-date-tags"><time pubdate="">{{ post.date | date: "%B %-d, %Y" }}</time>
             {% if post.categories.size > 0 %}
             | Posted in:
                 {% for category in post.categories %}
