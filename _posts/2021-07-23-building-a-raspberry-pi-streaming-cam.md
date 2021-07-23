@@ -75,3 +75,4 @@ and in the cronjob I save:
 @reboot sudo motion
 ```
 that made it working for me!
+
