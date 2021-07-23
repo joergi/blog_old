@@ -6,7 +6,7 @@ tags: [raspberrypi, streaming, cam, howto]
 date: 2021-07-23
 ---
 # the setup
-This is how my setup looks like:
+This is how my setup looks like:<br>
 <img src="https://raw.githubusercontent.com/joergi/blog/main/images/raspi-webcam-setup.jpg" alt="complete technical setup" width="300"> <br>
 
 as webcam I use a Waveshare 10300 RPi Camera (E)  
