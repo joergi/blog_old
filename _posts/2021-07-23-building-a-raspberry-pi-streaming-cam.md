@@ -18,3 +18,60 @@ check with `lsblk -p` which is your SD card, so you are not deleting your harddr
 Maybe plug it in and out to be sure.   
 For more information about this, go to the offical <a href="https://www.raspberrypi.org/documentation/installation/installing-images/linux.md">(Linux) installation page</a>.
 # Activate your (already pluged in) Camera 
+Go to settings -> interfaces -> cam -> and switch it on
+Make now a restart, and it should be activated
+
+# Install and set-up MOTION
+I used for streaming the service called `motion`.  
+Install it via 
+```shell
+sudo apt-get install motion -y
+```
+As I never used motion before, I followed this real great <a href="https://tutorials-raspberrypi.de/raspberry-pi-ueberwachungskamera-livestream-einrichten/">raspberry pi cam tutorial</a> (German). The only thing I changed was the `framerate` to 100 instead of 10.  
+
+edit the motion.conf file:
+```shell
+sudo nano /etc/motion/motion.conf
+```
+turn the daemon on:  
+`daemon on`
+allow others to watch the stream in the network:  
+`stream_localhost off`
+set the target for your stream, I used the same as the blog above recommend me:  
+`target_dir /home/pi/Monitor`
+
+I set the `width 1280` and `height 720` and `framerate 100`
+
+I uploaded my complete `motion.conf` <a href="https://github.com/joergi/tryouts/blob/main/raspberry-pi/streaming-cam/motion.conf">to my Github repo</a> 
+
+Then, set the demon to yes:
+```shell
+sudo nano /etc/default/motion
+```
+set: `start_motion_daemon=yes`
+
+now set the rights of the folder correct:
+```
+mkdir /home/pi/Monitor
+sudo chgrp motion /home/pi/Monitor
+chmod g+rwx /home/pi/Monitor
+```
+you can start it now with `sudo motion` 
+
+# Use your local IP to stream to your browser:
+find out over `ifconfig` what your local IP is.  
+I can reach in my wifi then the stream under: http://192.186.1.175:8081   
+Remember: the port 8081 was defined in the point above
+
+<img src="../images/webcam-in-action-png" alt="screenshot of the raspberrypi streaming to the my browser">
+
+# start motion everytime you start your raspberry pi
+to have it always running I used a cronjob:
+```shell
+$ crontab -e
+```
+and in the cronjob I save:
+```
+@reboot sudo motion
+```
+that made it working for me!
