@@ -1,5 +1,5 @@
 ---
-title: "Install kernel patch for Thinkpad Trackpoint Keyboard II.md"
+title: "Install kernel patch for Thinkpad Trackpoint Keyboard II"
 description: "When using the new Thinkpad Trackpoint Keyboard II there is a bug with the middle mouse button"
 categories: [linux, howto]
 tags: [linux, kernel, thinkpad, trackpoint, keyboard, howto]
