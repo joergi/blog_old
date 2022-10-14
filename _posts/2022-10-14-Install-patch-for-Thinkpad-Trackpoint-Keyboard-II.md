@@ -1,5 +1,5 @@
 ---
-title: "Install kernel patch for Thinkpad Trackpoint Keyboard II"
+title: "Install patch for Thinkpad Trackpoint Keyboard II"
 description: "When using the new Thinkpad Trackpoint Keyboard II there is a bug with the middle mouse button"
 categories: [linux, howto]
 tags: [linux, kernel, thinkpad, trackpoint, keyboard, howto]
@@ -19,7 +19,7 @@ This is a newer version, which is running without a cable but wirelesse with an 
 ## The middle button
 When I tried it out, everything seems to work as expected - but the middle button was showing strange behavior.  
 Normally you can scroll in a browser with the middle button pressed and moving the trackpoint up and down (or left and right).  
-The scrolling did work, but it always opened the content while pressing the button in a new tab. So, while scrolling on Twitter, it means a lot of new tabs were opened.  
+The scrolling dikernel-d work, but it always opened the content while pressing the button in a new tab. So, while scrolling on Twitter, it means a lot of new tabs were opened.  
 After searching a little bit, it seems my keyboard is not broken, but there is a known error in the driver.  
 
 ## Patching the kernel
