@@ -1,6 +1,6 @@
 # my digital brain
 as I don't wanna search for always the same stuff again and again, I started blogging on joergi77.wordpress.com     
-but now I moved everything from there to https://joergi.github.io
+but now I moved everything from there to https://blog.joergi.io
 
 ### start locally:
 rename `RENAME_docker-compose.yml` to `docker-compose.yml`     
