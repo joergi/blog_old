@@ -1,5 +1,5 @@
 ---
-title: "Docker cheat sheetb"
+title: "Docker cheat sheet"
 description: "a (hopefully always updated) docker cheat sheet"
 categories: [docker, cheatsheet, howto]
 tags: [docker,howto]
