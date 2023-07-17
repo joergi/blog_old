@@ -30,6 +30,10 @@ you can delete this bridge by using the following commands:
 sudo brctl delbr br-bcc4b1218247</pre>
 This should work, that you can connect then to the WiFi on Ice
 
+UPDATE:
+you can also delete all docker networks easily with:
+<pre>$ docker network prune</pre>
+
 I had the problem, that I could not reach some websitse in our company network,when I'm using a VPN.
 The ping to our internal subdomain was working, but I could not reach it in my browser:
 <pre>$ ping subdomain.intern.ourdomain.net
