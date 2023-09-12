@@ -30,6 +30,11 @@ you can delete this bridge by using the following commands:
 sudo brctl delbr br-bcc4b1218247</pre>
 This should work, that you can connect then to the WiFi on Ice
 
+UPDATE: 12.09.2023
+### Loginpage is not opening
+Normally the login page should update automatically, but soemtimes (on Linux) it isn't.  <br/>
+Go to <a href="https://login.wifionice.de" target="_blank">https://login.wifionice.de</a> for opening it in your browser 
+
 UPDATE:
 you can also delete all docker networks easily with:
 <pre>$ docker network prune</pre>
