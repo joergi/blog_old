@@ -31,12 +31,24 @@ docker login
 
 and commit the container id
 ```bash
-docker commit ea901f38e328 mag-pi-downloader
+docker commit ea901f38e328 joergi/mag-pi-downloader
 ```
 
 tag it with the current version and also as latest
 ```bash
 docker tag joergi/mag-pi-downloader:latest joergi/mag-pi-downloader:v.0.4.6
+```
+
+You can see it now:
+```bash
+$ docker images
+REPOSITORY          TAG       IMAGE ID       CREATED              SIZE
+joergi/mag-pi-downloader   latest    f05223f9e942   About a minute ago   131MB
+joergi/mag-pi-downloader   v.0.4.6   f05223f9e942   About a minute ago   131MB
+```
+
+now push it:
+```bash
 docker push joergi/mag-pi-downloader:latest
 docker push joergi/mag-pi-downloader:v.0.4.6
 ```
