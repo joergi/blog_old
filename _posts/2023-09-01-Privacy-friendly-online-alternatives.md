@@ -16,4 +16,6 @@ Please let me know, if you have some good alternatives
   - [Mastodon](https://mastodon.social/) instead of Twitter/X [selfhosting is possible](https://docs.joinmastodon.org/admin/install/)
   - [Peertube](https://peertube.tv/) instead of YouTube [selfhosting is possible](https://docs.joinpeertube.org/)
   - [Pixelfed](https://pixelfed.org/) instead of Instagram [selfhosting is possible](https://docs.pixelfed.org/running-pixelfed/installation/)
-  
+
+- Others:
+ - [LinkStack](https://linkstack.org/) - instead of linktr.ee [selfhosting is possible](https://linkstack.org/get-started/)
