@@ -28,8 +28,8 @@ Click `Configuration` -> `Configure MQTT` -> and enter:
 Click `Console`  
 Type: `Setoption19 0` and press Enter
 
-### Set updating of the device to 60 instead of 2 min.
+### Set updating of the device to 20 instead of 2 min.
 Click `Console`  
-Type: `TelePeriod 60` and press Enter
+Type: `TelePeriod 20` and press Enter
 
 I learned all this from [this YouTube Video](https://www.youtube.com/watch?v=-MovlMV4Ts8). so all credits go there!
